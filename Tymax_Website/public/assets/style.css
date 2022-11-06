@@ -1,0 +1,16 @@
+h1 {
+    text-align: center;
+}
+
+.loginForm {
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.loginForm input {
+    margin-bottom: 30px;
+}
+
+.test {
+    text-align: center;
+}
