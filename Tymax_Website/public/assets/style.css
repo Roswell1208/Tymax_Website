@@ -2,6 +2,9 @@ h1 {
     text-align: center;
 }
 
+
+/* ---------------------- Login form ---------------------- */
+
 .loginForm {
     margin-left: 100px;
     margin-right: 100px;
@@ -11,6 +14,64 @@ h1 {
     margin-bottom: 30px;
 }
 
-.test {
-    text-align: center;
+/* ----------------------------------------------------------- */
+
+
+
+/* ---------------------- Register form ---------------------- */
+
+#container{
+    width:100%;
+    margin: auto;
+    margin-top: 5%;
 }
+/* Bordered form */
+#container form {
+    width:40%;
+    margin: auto;
+    padding: 30px;
+    border: 1px solid #f1f1f1;
+    background: #fff;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+#container h1{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+/* Full-width inputs */
+#container input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+/* Set a style for all buttons */
+#container input[type=submit] {
+    /*background-color: rgb(5, 61, 12);*/
+    background-color:  rgb(34, 125, 185);
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+#container input[type=submit]:hover {
+    background-color: white;
+    color: #000000;
+    border: 1px solid #000000;
+}
+
+#container button {
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+}
+
+/* ----------------------------------------------------------- */
