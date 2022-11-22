@@ -1,0 +1,31 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+    <h1>Liste des prestations</h1>
+
+    {% set counter = 0 %}
+
+    <head>
+        <script src="https://kit.fontawesome.com/0c87a70838.js"></script>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+
+    <body>
+        <div class="grid">
+
+            {% for myPresta in prestas %}
+                <div class="card">
+                    <div class="container2">
+                        <img src="https://imgs.search.brave.com/JOctpiRTg8ZP5CekxBIZlmadfKOazJ_E7PR-kb6ju08/rs:fit:1200:1200:1/g:ce/aHR0cHM6Ly93d3cu/Z3JhdGlzdG9kby5j/b20vd3AtY29udGVu/dC91cGxvYWRzLzIw/MTYvMDgvTmV3LVlv/cmstMTkuanBn">
+                        <div class="details">
+                            <h3>{{ myPresta.title }}</h3>
+                            <p>{{ myPresta.description }}</p>
+                            <a href="#">En savoir plus <i class="fas fa-caret-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+            {% endfor %}
+
+        </div>
+    </body>
+{% endblock %}

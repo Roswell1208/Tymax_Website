@@ -75,3 +75,37 @@ h1 {
 }
 
 /* ----------------------------------------------------------- */
+
+
+/* ---------------------- Prestations list ---------------------- */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px,1fr));
+    padding: 40px;
+    grid-gap: 40px;
+}
+
+.card{
+    background-color: #000000;
+    border-radius: 20px;
+    box-shadow: 0 0 30px black;
+}
+
+.container2 {
+    position: relative;
+}
+
+img {
+    width: 100%;
+    display: block;
+    border-radius: 20px 20px 0 0;
+}
+
+/* ----------------------------------------------------------- */
